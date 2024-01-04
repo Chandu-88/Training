@@ -1,0 +1,221 @@
+.a{
+    height: 500px;
+    width: 600px;
+    background-color: black;
+}
+.b{
+    height: 500px;
+    width: 100px;
+    background-color: aqua;
+    float: left;
+}
+.c{
+    height:500px;
+    width:500px ;
+    background-color: orange;
+    float: right;
+}
+.d{
+    height: 100px;
+    width: 500px;
+    background-color: chartreuse;
+}
+.e{
+    height: 100px;
+    width: 500px;
+    background-color: rebeccapurple;
+  }
+#a{
+    height: 300px;
+    width: 500px;
+    background-color: brown;
+}
+#b{
+    height: 300px;
+    width: 100px;
+    background-color: orchid;
+    float: left;
+}
+#c{
+    height: 300px;
+    width: 100px;
+    background-color: darkgoldenrod;
+    float: left;
+}
+#d{
+    height: 300px;
+    width: 300px;
+    background-color: darkred;
+    float: left;
+}
+#e{
+    height: 100px;
+    width: 300px;
+    background-color: hotpink;
+}
+#f{
+    height: 200px;
+    width: 300px;
+    background-color: fuchsia;
+}
+#g{
+    height: 200px;
+    width: 100px;
+    background-color: lightgreen;
+    float: left;
+}
+#h{
+    height: 200px;
+    width: 100px;
+    float: left;
+    background-color: blue; 
+  }
+#i{
+    height: 200px;
+    width: 100px;
+    float: left;
+    background-color: lightcoral;
+}
+#j{
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+}
+#k{
+    height: 100px;
+    width: 100px;
+    background-color: khaki;
+}
+#l{
+    height: 100px;
+    width: 50px;
+    background-color: lawngreen;
+    float: left;
+}
+#m{
+    height: 100px;
+    width: 50px;
+    background-color: crimson;
+    float: left;
+}
+.f{
+    height: 100px;
+    width: 100px;
+    background-color: chocolate;
+}
+.g{
+    height: 100px;
+    width: 100px;
+    background-color: darkorchid;
+}
+#n{
+    height: 100px;
+    width: 50px;
+    background-color:purple;
+    float: left;
+}
+#o{
+    height: 100px;
+    width: 50px;
+    background-color:yellowgreen;
+    float: left;
+}
+.h{
+    height: 200px;
+    width: 100px;
+}
+.i{
+    height: 100px;
+    width: 100px;
+    background-color: maroon;
+}
+.j{
+    height: 200px;
+    width: 50px;
+    background-color:red;
+    float: left;
+}
+.k{
+    height: 200px;
+    width: 50px;
+    float: left;
+    background-color: darkorange;
+}
+.l{
+    height: 100px;
+    width: 100px;
+    background-color:yellow;
+}
+.m{
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+}
+.n{
+    height: 400px;
+    width: 100px;
+    background-color: black;
+}
+.o{
+    height: 300px;
+    width: 100px;
+}
+.p{
+    height: 100px;
+    width: 100px;
+    background-color: green;
+}
+.q{
+    height: 100px;
+    width: 50px;
+    float: left;
+    background-color: brown;
+}
+.r{
+    height: 100px;
+    width: 50px;
+    float: left;
+    background-color: blue;
+}
+.s{
+    height: 100px;
+    width: 400px;
+    float: left;
+}
+.t{
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.u{
+   height:100px ;
+   width: 400px;
+   float: left;
+   background-color: dodgerblue;
+}
+.v{
+    height: 100px;
+    width: 100px;
+    float: right;
+    background-color: firebrick;
+}
+.sr{
+    height: 50px;
+    width: 100px;
+}
+.rr{
+    height: 50px;
+    width: 100px;
+    background-color: black;
+}
+.sd{
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+.df{
+    height: 50px;
+    width: 50px;
+    float: right;
+    background-color: green;
+}

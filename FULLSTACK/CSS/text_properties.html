@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>text prperties</title>
+    <style>
+    p{
+        /* text-align: center; 
+        text-align: left;
+        text-align: right;*/
+        text-align: justify;
+    }
+    div{
+        height: 100px;
+        width: 800px;border: 1px solid;
+    }
+    .a{
+        /* text-transform: uppercase; 
+        text-transform: lowercase;*/
+        text-transform: capitalize;
+    }
+    .b{
+        text-align: center;
+        text-shadow: 4px 5px 3px black ,8px 8px 8px violet;
+        /* 4px--->horizontal length
+           5px--->vertical lenght
+           3px-->blur effect
+           last add colour */
+    }
+    .c{
+        text-align: left;
+        text-shadow: 4px 5px 2px;
+    }
+    .d{
+        font-size: large;
+        text-align: left;
+        text-decoration: underline green dotted 3px;
+        /* types-->underline,overline,line through */
+    }
+    a{
+        text-decoration: none;
+        /* to remove underlines or any other decoration */
+    }
+    .e{
+        text-indent: 50px;
+        letter-spacing: 2px;
+        line-height: 40px;
+        word-spacing: 20px;
+        white-space: wrap; 
+        /* aline the text in one single line when we use nowrap,pre-->display text as in the code*/
+    }
+    </style>
+</head>
+<body>
+    <center><h1>TEXT PROPERTIES IN CSS</h1></center>
+    <hr>
+    <h2>Text aline properties</h2>
+    <div><p>The highest mountain known to manThe highest mountain known to man is on an asteroid called Vesta. Measuring a whopping 22km in height, it is three times as tall as Mount Everest!
+    is on an asteroid called Vesta. Measuring a whopping 22km in height, it is three times as tall as Mount Everest!
+    </p></div><hr>
+    <h2>Text transforms</h2>
+    <p class="a"> is on an asteroid called Vesta. Measuring a whopping 22km in height, it is three times as tall as Mount Everest!
+        The highest mountain known to manThe highest mountain known to man is on an asteroid called Vesta. Measuring a whopping 22km in height, it is three times as tall as Mount Everest!
+    </p><hr>
+    <h1 class="b">TEXT SHADOW</h1><br>
+    <p class="c">The highest mountain known to manThe highest mountain known to man is on an asteroid called Vesta. Measuring a whopping 22km in height, it is three times as tall as Mount Everest!
+        is on an asteroid called Vesta.</p><br><hr><br>
+    <center><h1>TEXT DECORATION</h1>  <br><hr></center>
+    <p class="d">mountain known to manThe highest mountain </p><br>
+    <a href="">click here</a>br hr <br>
+    <h1>TEXT SPACING</h1><br><hr><br>
+    <p class="e">The highest mountain known to manThe highest mountain known to man is on an asteroid called Vesta. Measuring a whopping 22km in height, it is three times as tall as Mount Everest!
+        is on an asteroid called VestaThe highest mountain known to manThe highest mountain known to man is on an asteroid called Vesta. Measuring a whopping 22km in height, it is three times as tall as Mount Everest!
+        is on an asteroid called Vesta</p>
+</body>
+</html>

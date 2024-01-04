@@ -1,0 +1,126 @@
+.a{
+    height:540px;
+    width:1000px ;
+    background-color:rgb(240, 239, 239);
+}
+.b{
+    height: 280px;
+    width: 1000px;
+    background-color:lightgray;
+}
+.c{
+    height:200px;
+    width: 1000px;
+    background-color:rgba(240, 239, 239);
+}
+.d{
+    letter-spacing: 3px;
+    word-spacing: 4px;
+    font-size:10px;
+    font-weight: bold;
+position: relative;
+top: 30px;
+}
+.e{
+    font-weight: bold;
+    font-style:inherit;
+    font-size: 40px;
+    position: relative;
+top: 40px;
+}
+.f{
+    position: relative;
+    top:45px;
+}
+button{
+    border-radius: 20px;
+    background-color:rgb(58, 13, 193);
+    color: white;
+    font-size:12px;
+    font-weight: bold;
+    height: 40px;
+    width: 140px;
+    position: relative;
+top: 70px;
+}
+.g{
+    height:250px;
+    width:330px;
+    background-color: white;
+    position:relative;
+    bottom: 130px;
+    right: 200px;
+    box-shadow: 2px 2px 4px grey;
+}
+.g1{
+    height:250px;
+    width:330px;
+    background-color: white;
+    position:relative;
+    bottom:450px;
+    left: 180px;
+    box-shadow: 2px 2px 4px grey;
+}
+.g2{
+    height:250px;
+    width:330px;
+    background-color: white;
+    position:relative;
+    bottom: 330px;
+    right: 200px;
+    box-shadow: 2px 2px 4px grey;
+}
+.g3{
+    height:250px;
+    width:330px;
+    background-color: white;
+    position:relative;
+    bottom: 650px;
+   left: 180px;
+   box-shadow: 2px 2px 4px grey;
+}
+.h{
+    height: 50px;
+    width: 50px;
+    border-radius:100px;
+    position: relative;
+    top: 40px;
+    right:120px;
+}
+.h1{
+    height: 50px;
+    width: 50px;
+    border-radius:150px;
+    position: relative;
+    top: 40px;
+    right:120px;
+}
+.h2{
+    height: 50px;
+    width: 50px;
+    border-radius:150px;
+    position: relative;
+    top: 40px;
+    right:120px;
+}
+.h3{
+    height: 50px;
+    width: 50px;
+    border-radius:100px;
+    position: relative;
+    top: 40px;
+    right:120px;
+}
+.i{
+    font-weight: bold;
+    font-style:initial;
+    position:absolute;
+    left: 20px;
+    top: 100px;
+}
+.o{
+    position: absolute;
+    top:120px;
+    font-style: italic;
+    color: gray;
+}

@@ -1,0 +1,46 @@
+.properties{ 
+    border: 3px solid gray;
+    font-size: 35px;color: lawngreen;
+}
+#main{
+   height: 200px;
+   width: 200px;
+    background-color: darkorange;
+}
+span{
+    color: chartreuse;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+*{
+    font-size: 20px;
+    color: aqua;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input[type="text"]{
+    color: yellowgreen;
+    border: 2px solid green;
+}
+input[type="number"]{
+    font-size: 25px;
+    background-color: chocolate;
+}
+a[href]{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+a:link{
+    font-size: 20px;
+}
+a:visited{
+    color: rgb(216, 91, 170);
+}
+a:hover{
+    font-size: 30px;
+}
+a:active{
+    background-color: brown;
+} 
+div:hover{
+    size: 50px;
+}

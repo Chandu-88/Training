@@ -1,0 +1,15 @@
+b-->bold
+strong
+i-->italic
+u-->underline
+mark
+em-->emphasize
+sup-->superscript
+sub-->subscript
+small
+big
+ordelist
+ol
+unorderlist
+ul
+
