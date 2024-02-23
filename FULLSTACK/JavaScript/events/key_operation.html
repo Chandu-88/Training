@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keyboard operations</title>
+</head>
+<body>
+    <ul>
+        <li>
+            Keypress
+        </li>
+        <li>
+            Keydown
+        </li>
+        <li>
+            Keyup
+        </li>
+    </ul>
+    <p id="p_id"></p>
+    <label for="">keypress</label>
+    <input type="text" onkeypress="change(this.value)"><br>
+    <label for="">keydown</label>
+    <input type="text" onkeydown="change(this.value)"><br>
+    <label for="">keyup</label>
+    <input type="text" onkeyup="change(this.value)"><br>
+    <script>
+        function change(value) {
+            document.getElementById('p_id').innerHTML=value;
+        }
+    </script>
+</body>
+</html>

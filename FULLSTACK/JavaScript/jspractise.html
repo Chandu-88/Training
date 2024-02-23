@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+      const obj_ele=[
+     {
+        name :'ECE',
+        count:200,
+        Fee:6000,
+        dur:'3 months'
+     },
+     {
+        name :'CSE',
+        count:300,
+        Fee:6000,
+        dur:'3 months'
+     },
+     {
+        name :'MECH',
+        count:400,
+        Fee:6000,
+        dur:'3 months'
+     },
+     {
+        name :'PET',
+        count:100,
+        Fee:6000,
+        dur:'2 months'
+     },
+     ]
+        var body = document.getElementsByTagName("body")[0];
+        var tbl = document.createElement("table");
+        var tblBody = document.createElement("tbody");
+for (var j = 0; j <=obj_ele.length ; j++) {
+  var row = document.createElement("tr");
+  for (var i = 0; i <=obj_ele.length; i++) {
+    var cell = document.createElement("td");
+    var cellText = document.createTextNode(obj_ele[i]);
+    cell.appendChild(cellText);
+    row.appendChild(cell);
+  }
+  tblBody.appendChild(row);
+}
+tbl.appendChild(tblBody);
+body.appendChild(tbl);
+tbl.setAttribute("border", "2");
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>objects in JS</title>
+</head>
+<body>
+    <script>
+        let car ={
+            name:'tesla',
+            colour:'blue',
+            number:"AP05 777",
+            Model:'new version',
+        }
+        console.log(car)
+        console.log(car.number)//dot notation
+        console.log(car['name'])
+        car.colour ='black' //to change the value of a particular key 
+        console.log(car.colour)
+        car.cost = 2500000 //to add a new property
+        console.log(car.cost)
+        delete car.Model // to delete a key value
+        console.log(car)
+        console.log('name'in Object) //checking the property is exists or not 
+        console.log('age' in Object)
+    </script>
+</body>
+</html>

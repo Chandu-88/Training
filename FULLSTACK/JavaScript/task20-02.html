@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>img task</title>
+</head>
+<body>
+    <img  src="images/startfruit.webp" alt="blueberry" id="im">
+    <!-- <button onclick="myfunc">Click Me</button> -->
+    <button onclick = "myfunc()"> click me </button>
+    <script>
+     function myfunc(){
+        const image =document.getElementById('im')
+        image.setAttribute("src","images/blueberry.jpg")
+     }
+      
+    </script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM in JS</title>
+</head>
+<body>
+    <h1 id="demo">DOM IN JS</h1>
+    <span class="c1">Chandu is a very good boiiiiii</span><br>
+    <span class="c1">Yeshwin is a very bad boiiiiii</span>
+    <p>nagasai1</p>
+    <p>nagasai2</p>
+    <p>nagasai3</p>
+    <script>
+        //To print entire document structure
+        console.log(document)
+        console.log(document.head)
+
+        //By using ID method
+        let cs = document.getElementById('demo')
+        cs.style.color='red'
+        cs.style.border='2px solid gray'
+
+        //By using Class method
+        let Cls= document.getElementsByClassName('c1')
+        Cls[1].style.background='red'
+        Cls[0].style.background='yellow'
+
+        //By using tag method
+        let tagnm=document.getElementsByTagName('p')
+        tagnm[2].style.boxShadow='2px 3px 5px'
+        tagnm[1].style.background='green'
+    </script>
+</body>
+</html>

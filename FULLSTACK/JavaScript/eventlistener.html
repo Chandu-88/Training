@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event listener</title>
+</head>
+<body>
+    <h5 id="cls"></h5>
+    <script>
+        const newbtn = document.createElement('button')
+        newbtn.style.cssText = `height:75px;
+                                width:100px;
+                                border:2px solid;
+                                border-radius:10px;`
+        newbtn.innerText = 'Click btn'
+        newbtn.addEventListener("mouseover",myfunc)
+        newbtn.addEventListener("mouseout",myfunc1)
+        newbtn.addEventListener("click",myfunc2)
+        const btn = document.body
+        btn.appendChild(newbtn)            
+        function myfunc(){
+            btn.style.backgroundColor='red'
+        }
+        function myfunc1(){
+            btn.style.backgroundColor='blue'
+        }
+        function myfunc2(){
+           const date = document.getElementById('cls')
+           date.innerHTML = Date()
+        }
+    </script>
+</body>
+</html>

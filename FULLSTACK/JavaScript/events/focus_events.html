@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>focus events in  jS</title>
+</head>
+<body>
+    <ul>
+        <li>Focus</li>
+        <li>Blur</li>
+    </ul>
+    <label for="">Focus</label>
+    <input type="text" onfocus="sample(this,'green')"><br>
+    <label for="">Blur</label>
+    <input type="text" onblur="sample(this,'yellow')"><br>
+    <label for="">Focus</label>
+    <input type="text" onfocus="sample(this,'violet')"><br>
+    <script>
+        function sample(e,color_value) {
+            e.style.background = color_value
+        }
+    </script>
+</body>
+</html>

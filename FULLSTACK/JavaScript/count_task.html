@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>count task</title>
+</head>
+<body>
+    <span>count is : </span>
+    <p id="t">0</p><br>
+    <button id="in">inc</button>
+    <button id="de">dec</button>
+    <script>
+        let count = 0;
+       let sp = document.getElementById('t');
+       let incbtn = document.getElementById('in');
+       let decbtn = document.getElementById('de');
+       incbtn.addEventListener("click",() =>{
+        count++;
+         display();
+       }) 
+       decbtn.addEventListener("click",() =>{
+        count--;
+        display();
+       })
+       function display(){
+        sp.innerHTML = count;
+       }
+    </script>
+</body>
+</html>

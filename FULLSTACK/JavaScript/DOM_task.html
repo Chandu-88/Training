@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM task</title>
+</head>
+<body>
+    <h1>COLLEGES</h1>
+    <ul>
+        <li>AEC</li>
+        <li>ACET</li>
+        <li>ACOE</li>
+    </ul>
+    <h1>Changed Colleges</h1>
+    <ul>
+        <li>AEC</li>
+        <li>ACET</li>
+        <li>ACOE</li>
+    </ul>
+    <script>
+        let college =document.getElementsByTagName('li')
+        college[3].innerHTML=('<b>Aditya engineering college</b>')
+        college[4].innerHTML=('<b>Aditya college of engineering and technology</b>')
+        college[5].innerHTML=('<b>Aditya college of engineering</b>')
+    </script>
+</body>
+</html>

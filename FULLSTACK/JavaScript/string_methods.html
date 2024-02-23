@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string methods in JS</title>
+</head>
+<body>
+    <script>
+        //str length
+        //str charAt
+        //str indexof
+        //toLowerCase
+        //toUpperCase
+        //trim
+
+        function string(str){
+            document.write("<b>"+str+"<b>"+"<br>")
+        }
+
+        let st='college campus'
+        string("original : "+st)
+
+        //for string length
+        string("length : "+st.length)
+
+        //to find char at any index value
+        string("value at index : "+st.charAt(10))
+        
+        //to find the index value of a char
+        string("index of char : "+st.indexOf('p'))
+        string("index of char : "+st.indexOf('College'))
+        string("last index of char : "+st.lastIndexOf('c'))
+
+        //to change the string to lower case
+        let st1='eCE DeparTMenT'
+        string("char to lower case : "+st1.toLowerCase())
+
+        //to change the string to upper case
+        string("char to lower case : "+st1.toUpperCase())
+
+        //to multiply or add the strings
+        let st2='aditya '
+        string("concatanation of strings : "+st2.concat(st))
+
+        //removing the spaces
+        string("remove spaces : "+st.trim())
+
+        //converting string into an array
+        let st3='yeshwin&thiru&sai'
+        string(st3.split("&"))
+
+        let st4='yeshwin,thiru,sai'
+        string(st4.split(","))
+
+        //to check the string is start with specified char(returns boolean value)
+        string('startwith c : '+st.startsWith('c'))
+
+         //to check the string is end with specified char(returns boolean value))
+         string('endwith c : '+st.endsWith('a'))
+         
+    </script>
+</body>
+</html>

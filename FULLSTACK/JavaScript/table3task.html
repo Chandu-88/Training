@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="">
+    	<tr>
+    		<td></td>
+    		<td></td>
+    		<td></td>
+            
+    	</tr>
+    	<tr>
+    		<td></td>
+    		<td></td>
+    		<td></td>
+            
+    	</tr>
+    	<tr>
+    		<td></td>
+    		<td></td>
+    		<td></td>
+    	</tr>
+    </table>
+    <script>
+        const name =["chandu","raju","ravi","rani","kavitha","yeshwin","somu","sai","hv"];
+        const col =['red','yellow','green','orange','violet','cyan','blue','brown','pink']
+        console.log(name)
+        let table = document.getElementsByTagName('td')
+        
+         for(i=0;i<=table.length;i++)
+        {
+          table[i].innerHTML = name[i];
+          table[i].style.backgroundColor=col[i];
+         
+        }
+        // table[0].style.backgroundColor='red'
+        // table[1].style.backgroundColor='yellow'
+        // table[2].style.backgroundColor='green'
+        // name[3].style.backgroundColor='violet'
+        // table[4].style.backgroundColor='oragne'
+        // table[5].style.backgroundColor='cyan'
+        // table[6].style.backgroundColor='blue'
+    </script>
+</body>
+</html>

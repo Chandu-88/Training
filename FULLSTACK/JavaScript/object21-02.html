@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>object</title>
+</head>
+<table border="">
+    <tr>
+        <th>Course Name</th>
+        <th>Student Count</th>
+        <th>Fee</th>
+        <th>Duration</th>
+    </tr>
+</table>
+<tbody id="tb"></tbody>
+<body>
+   <script>
+     const obj_ele=[
+     {
+        name :'ECE',
+        count:200,
+        Fee:6000,
+        dur:'3 months'
+     },
+     {
+        name :'CSE',
+        count:300,
+        Fee:6000,
+        dur:'3 months'
+     },
+     {
+        name :'MECH',
+        count:400,
+        Fee:6000,
+        dur:'3 months'
+     },
+     {
+        name :'PET',
+        count:100,
+        Fee:6000,
+        dur:'2 months'
+     },
+     ]
+     let tlbbdy = document.getElementById("tb")
+      for(let i=0;i<=10;i++){
+        const new_row = document.createElement("tr")
+        for(let j=0;j<=3;j++){
+          const new_cell = document.createElement('td')
+          const text = document.createTextNode('#')
+          new_cell.appendChild(text)
+          new_row.appendChild(new_cell)
+        }
+        tlbbdy.appendChild(new_row)
+      }
+      tlbbdy.setAttribute('border','2')
+   </script> 
+</body>
+</html>

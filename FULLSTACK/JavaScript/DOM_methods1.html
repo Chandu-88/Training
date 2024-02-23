@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM methods</title>
+</head>
+<body>
+    <p>Someswarao</p>
+    <p>Someswarao</p>
+    <p class="naga">Nagasai</p>
+    <p id="chandu">Chandu</p>
+    <h1>Someswarao</h1>
+    <h1>Someswarao</h1>
+    <p id="p">Paparao</p>
+    <p id="p">gopi manchuria</p>
+    <p class="a">soda sai</p>
+    <p class="a">taadiii yeshwin</p>
+    <a id="anchor">Click Me</a>
+    <div class="aaa">sniu</div>
+
+    <script>
+        //  by using queryselector('#id,.class,tag')
+        const yes=document.querySelector('p')
+        yes.style.backgroundColor='yellow'
+
+        const sai=document.querySelector('.naga')
+        sai.style.color='red'
+
+        const ch=document.querySelector('#chandu')
+        ch.style.fontSize='50px'
+
+        //  by using queryselectorAll('#id,.class,tag')
+        const somu=document.querySelectorAll('h1')
+        somu[0].style.color='green'
+        somu[1].style.color='red'
+
+        const nag=document.querySelectorAll('#p')
+        nag[0].style.fontFamily='Cursive'
+        nag[1].style.fontWeight='bold'
+
+        const yeshu=document.querySelectorAll('.a')
+        yeshu[1].style.backgroundColor='red'
+        yeshu[0].style.backgroundColor='yellow'
+
+        //to set attributes
+        const Myanchor = document.getElementById('anchor')
+        Myanchor.setAttribute('href','https://web.whatsapp.com/')
+        Myanchor.setAttribute('target','_blank')
+
+        document.getElementsByClassName('aaa').style.height='200px'
+        document.getElementsByClassName('aaa').style.width='200px'
+
+        // divi.setAttribute("height","200px")
+        // divi.setAttribute("width","200px")
+        // divi.setAttribute("backgroundcolor","red")`````````````````
+
+    </script>
+</body>
+</html>
